@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<!--
+    Author: Jacob Wolniak
+    Class: Web and Distribution Programming
+    Project: Mustang V2
+    Description: This is the second version of Mustang
+-->    
+    <head>
+        <meta charset="utf-8">
+        <title>Mustang v2</title>
+        <link rel="stylesheet" href="format.css">
+        <script src="mustang-v2.js"></script>
+    </head>
+    <body onload="initApplication()">
+        <h1>Mustang v2</h1>
+        <table>
+            <tr>
+                <td>First Name:</td>
+                <td><input id="firstID" type="text" value="" size="20"></td>
+            </tr>
+            <tr>
+                <td>Last Name:</td>
+                <td><input id="lastID" type="text" value="" size="20"></td>
+            </tr>
+            <tr>
+                <td>Preferred Name:</td>
+                <td><input id="prefnameID" type="text" value="" size="20"></td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><input id="emailID" type="text" value="" size="20"></td>
+            </tr>
+            <tr>
+                <td>Phone Number:</td>
+                <td><input id="phoneID" type="text" value="" size="20"></td>
+            </tr>
+            <tr>
+                <td>Class:</td>
+                <td><input id="classID" type="text" value="" size="20"></td>
+            </tr>
+            <tr>
+                <td>Room:</td>
+                <td><input id="roomID" type="text" value="" size="20"></td>
+            </tr>
+            <tr>
+                <td>Start Time:</td>
+                <td><input id="timeID" type="text" value="" size="20"></td>
+            </tr>
+            <tr>
+                <td>Seat Number:</td>
+                <td><input id="seatID" type="text" value="" size="20"></td>
+            </tr>
+            <tr>
+                <td>In Person:</td>
+                <td><input id="inpersonID" type="text" value="" size="20"></td>
+            </tr>
+            <tr>
+                <td>Virtual:</td>
+                <td><input id="virtualID" type="text" value="" size="20"></td>
+            </tr>
+            <tr>
+                <td>City:</td>
+                <td><input id="cityID" type="text" value="" size="20"></td>
+            </tr>
+            <tr>
+                <td>State:</td>
+                <td><input id="stateID" type="text" value="" size="20"></td>
+            </tr>
+            <tr>
+                <td>Zip:</td>
+                <td><input id="zipID" type="text" value="" size="20"></td>
+            </tr>
+            <tr>
+                <td>Latitude:</td>
+                <td><input id="latID" type="text" value="" size="20"></td>
+            </tr>
+            <tr>
+                <td>Longitude:</td>
+                <td><input id="lngID" type="text" value="" size="20"></td>
+            </tr>
+            <tr>
+                <td>Favorite Hobby:</td>
+                <td><input id="hobbyID" type="text" value="" size="20"></td>
+            </tr>
+            <tr>
+                <td><button id="prevbtn" type="button" onclick="previous()">Previous</button></td>
+                <td><button id="nextbtn" type="button" autofocus onclick="next()">Next</button></td>
+            </tr>
+            <tr>
+                <td><button id="addbtn" type="button" onclick="add()">New</button></td>
+                <td><button id="delbtn" type="button" onclick="remove()">Delete</button></td>
+            </tr>
+        </table>
+
+        <p id="statusID"></p><br><br>
+        <hr>
+        Data and Test Functions:<br>
+        Index:<p id="indexID"></p>
+        Contacts:<p id="contactsID"></p>
+    </body>
+</html>
